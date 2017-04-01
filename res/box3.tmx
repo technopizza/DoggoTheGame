@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="12" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="tileset" tilewidth="64" tileheight="64" tilecount="64" columns="8">
+  <image source="../../The-Game/res/Tiles_64x64.png" width="512" height="512"/>
+  <tile id="0">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="playerspawn" value="true"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="enemyspawn" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="65" name="sky" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="../../The-Game/res/liquidWater.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="66" name="dog" tilewidth="64" tileheight="64" tilecount="12" columns="3">
+  <image source="../../The-Game/res/dog1.png" width="192" height="256"/>
+  <tile id="3">
+   <properties>
+    <property name="ladder" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="ladder" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="ladder" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="12">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC3NkYGBwHMWjeBSP4lE8ikcxXTEAbbk8WoAHAAA=
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="40" height="12">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9NjGLxAD4oHKxh1H2UA3X3GA+UQHGCohR86MKGXQ3AAZPfJAjEjlM0IxbI4MCMDJpDFYYcJHnlc5oOwG9RtjGgYBtDFcalDVk8qnxjMiobJAbj0EyNOKkb3J6E0iM0MUtUPZQwAvViIlIAHAAA=
+  </data>
+ </layer>
+</map>

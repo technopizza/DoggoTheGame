@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="duboisTiles" tilewidth="64" tileheight="64" tilecount="96" columns="8">
+  <image source="../../Conklin_4_SlickDuBoisGame/res/duboisTiles.png" width="512" height="768"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA/NmYGDwHsWjeBSP4lE8ikfxkMYApQ/l0tAHAAA=
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="50" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBSMglEwCkgHnKN4UGEAWeXy6NAHAAA=
+  </data>
+ </layer>
+</map>
